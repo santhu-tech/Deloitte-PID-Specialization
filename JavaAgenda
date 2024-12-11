@@ -1,0 +1,58 @@
+Day-1 -Deloitte : -->09.12.2024
+
+Advanced OOPs and Design Patterns  
+
+Review of core OOPs concepts (classes, objects, inheritance, polymorphism, encapsulation)  
+
+Advanced OOPs topics: interfaces, abstract classes, packages, access modifiers  
+
+SOLID Principles :
+
+Design patterns: introduction to design patterns, creational patterns (singleton, factory, builder)  
+
+Lab: Implement a design pattern (e.g., singleton) in a practical scenario.  
+
+Lab: Create a class hierarchy with interfaces and abstract classes. 
+
+
+Day-2 -->10.12.2024
+
+-Factory Design pattern
+-Builder Design Pattern
+-Singleton Design pattern with double locking method 
+
+-Exception Handling and Collections
+
+-Exception handling: try-catch-finally blocks, custom exceptions
+
+
+Lab: Implement custom exceptions in a program.
+Lab: Use collections to store and manipulate data in various scenarios (e.g., sorting, searching, filtering).
+
+Day-3 -->11.12.2024
+
+Java Collections Framework: ArrayList, LinkedList, HashSet, HashMap, TreeSet, TreeMap
+Collection framework 
+Functional Programming and Streams
+Functional programming concepts: lambda expressions, method references
+Java Streams: stream operations (filter, map, reduce, etc.), parallel streams
+Lab: Use streams to process data efficiently.
+Lab: Write a program using lambda expressions and method references
+
+Day -4 -->12.12.2024
+
+Multithreading and Concurrency
+Introduction to multithreading: threads, processes, thread lifecycle
+Synchronization and concurrency: synchronized keyword, volatile keyword, atomic classes
+Lab: Create a multithreaded program to perform concurrent tasks.
+Lab: Implement synchronization mechanisms to avoid race conditions and deadlocks
+
+Day-5 -->13.12.2024
+
+File I/O, Serialization, and Testing
+File I/O: reading and writing files, file streams
+Serialization and deserialization: object serialization and deserialization
+Lab: Create a program to read and write data to a file.
+Lab: Serialize and deserialize objects.
+Optional: Introduction to unit testing frameworks (JUnit, TestNG) and writing test cases
+
