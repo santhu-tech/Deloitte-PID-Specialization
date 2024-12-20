@@ -1,0 +1,8 @@
+  eureka:
+    client:
+      defaultZone: localhost
+      register-with-eureka: true
+      fetch-registry: false
+    instance:
+      prefer-ip-address: true
+      
