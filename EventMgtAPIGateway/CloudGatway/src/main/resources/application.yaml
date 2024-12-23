@@ -1,0 +1,43 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: API-GATEWAY
+  config:
+    import: configserver:http://${CONFIG_SERVER_URL:localhost}:9296
+  cloud:
+    gateway:
+      routes:
+        - id: EVENT-SERVICE
+          uri: lb://EVENT-SERVICE
+          predicates:
+            - Path=/api/v1/events/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: ORDER-SERVICE
+#                fallback: forward:/orderServiceFallBack
+        - id: VENUE-SERVICE
+          uri: lb://VENUE-SERVICE
+          predicates:
+            - Path=/api/venues/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: PRODUCT-SERVICE
+#                fallback: forward:/productServiceFallBack
+#okta:
+#  oauth2:
+#    issuer: https://dev-35510211.okta.com/oauth2/default
+#    audience: api://default
+#    client-id: 0oakww4lf8ReqPCcO5d7
+#    client-secret: 4XGoYeyin_eJOlNMTI0btqUQeLyPAW4_pazKhj1vrM_XwSE3jpCqoqJbKEh1Jr8r
+#    scopes: openid,email,profile,offline_access
+#main:
+#  allow-bean-definition-overriding: true
+
+
+
+
+
